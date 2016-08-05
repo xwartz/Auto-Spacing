@@ -16,7 +16,7 @@ git clone 这个仓库到 Sublime Text 3 的插件目录下 (Mac 的目录 ~/Lib
 
 `Ctrl + Shift + P` 选择  `Auto-Spacing`。
 
-**还没有被merge，暂时还不能通过控制台下载**
+** 还没有被 merge，暂时还不能通过控制台下载 **
 
 ## Commands
 **Command palette:**
@@ -36,7 +36,7 @@ git clone 这个仓库到 Sublime Text 3 的插件目录下 (Mac 的目录 ~/Lib
 ```javascript
 {
   "format_on_save_extensions": false,
-  [ 
+  [
     "md",
     "txt"
   ]
@@ -49,7 +49,7 @@ git clone 这个仓库到 Sublime Text 3 的插件目录下 (Mac 的目录 ~/Lib
 
 欢迎提交 PR。
 
-### Thanks
+## Thanks
 
 [@vinta](https://github.com/vinta/pangu.py)
 

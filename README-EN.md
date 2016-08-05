@@ -62,7 +62,7 @@ If you find any bugs feel free to report them [here](https://github.com/xwartz/A
 
 Pull requests are also encouraged.
 
-### Thanks
+## Thanks
 
 [@vinta](https://github.com/vinta/pangu.py)
 
