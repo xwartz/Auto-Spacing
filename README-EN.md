@@ -6,7 +6,7 @@ Sublime Text 3 Plugin to automatically insert whitespace between Chinese and Eng
 
 ## Installation
 
-### Via Github
+### Via Git
 
 First, clone the repo via git to Sublime's package directory.
 

@@ -8,13 +8,15 @@ Sublime Text 3 插件，给中英文之间加上空格。
 
 ## 安装
 
-### 通过 github
+### 通过 git
 
 git clone 这个仓库到 Sublime Text 3 的插件目录下 (Mac 的目录 ~/Library/Application Support/Sublime Text 3/Packages/)。
 
 ### 通过 sublime 控制台
 
 `Ctrl + Shift + P` 选择  `Auto-Spacing`。
+
+**还没有被merge，暂时还不能通过控制台下载**
 
 ## Commands
 **Command palette:**
