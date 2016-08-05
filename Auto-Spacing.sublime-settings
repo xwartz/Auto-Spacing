@@ -1,0 +1,11 @@
+{
+  // Automatically format when a file is saved.
+  "format_on_save": false,
+
+  // Only attempt to format files with whitelisted extensions on save.
+  // Leave empty to disable the check
+  "format_on_save_extensions": [
+    "md",
+    "txt"
+  ]
+}

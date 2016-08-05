@@ -1,0 +1,7 @@
+[{
+  "caption": "Auto Spacing",
+  "children": [{
+    "caption": "Automatically insert whitespace",
+    "command": "auto_spacing"
+  }]
+}]

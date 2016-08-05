@@ -1,0 +1,78 @@
+[{
+  "id": "tools",
+  "children": [{
+    "id": "autospacing_tools",
+    "caption": "Auto Spacing",
+    "children": [{
+      "caption": "Fix This File",
+      "command": "auto_spacing"
+    }]
+  }]
+}, {
+  "id": "preferences",
+  "children": [{
+    "id": "package-settings",
+    "children": [{
+      "caption": "Auto Spacing",
+      "children": [{
+        "command": "open_file",
+        "args": {
+          "file": "${packages}/Auto-Spacing/Auto-Spacing.sublime-settings"
+        },
+        "caption": "Settings – Default"
+      }, {
+        "command": "open_file",
+        "args": {
+          "file": "${packages}/User/Auto-Spacing.sublime-settings"
+        },
+        "caption": "Settings – User"
+      }, {
+        "caption": "-"
+      }, {
+        "command": "open_file",
+        "args": {
+          "file": "${packages}/Auto-Spacing/Default (OSX).sublime-keymap",
+          "platform": "OSX"
+        },
+        "caption": "Key Bindings – Default"
+      }, {
+        "command": "open_file",
+        "args": {
+          "file": "${packages}/Auto-Spacing/Default (Linux).sublime-keymap",
+          "platform": "Linux"
+        },
+        "caption": "Key Bindings – Default"
+      }, {
+        "command": "open_file",
+        "args": {
+          "file": "${packages}/Auto-Spacing/Default (Windows).sublime-keymap",
+          "platform": "Windows"
+        },
+        "caption": "Key Bindings – Default"
+      }, {
+        "command": "open_file",
+        "args": {
+          "file": "${packages}/User/Default (OSX).sublime-keymap",
+          "platform": "OSX"
+        },
+        "caption": "Key Bindings – User"
+      }, {
+        "command": "open_file",
+        "args": {
+          "file": "${packages}/User/Default (Linux).sublime-keymap",
+          "platform": "Linux"
+        },
+        "caption": "Key Bindings – User"
+      }, {
+        "command": "open_file",
+        "args": {
+          "file": "${packages}/User/Default (Windows).sublime-keymap",
+          "platform": "Windows"
+        },
+        "caption": "Key Bindings – User"
+      }, {
+        "caption": "-"
+      }]
+    }]
+  }]
+}]

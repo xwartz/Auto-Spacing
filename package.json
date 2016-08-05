@@ -1,0 +1,24 @@
+{
+  "name": "auto-spacing",
+  "version": "1.0.0",
+  "description": "Automatically insert whitespace between Chinese and English",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xwartz/auto-spacing.git"
+  },
+  "keywords": [
+    "space",
+    "sublime-plugin",
+    "chinese"
+  ],
+  "author": "xwartz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xwartz/auto-spacing/issues"
+  },
+  "homepage": "https://github.com/xwartz/auto-spacing#readme"
+}
