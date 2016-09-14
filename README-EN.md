@@ -1,14 +1,14 @@
 ## Auto-Spacing
 
-Sublime Text 3 Plugin to automatically insert whitespace between Chinese and English.
+Paranoid text spacing for good readability, to automatically insert whitespace between CJK (Chinese, Japanese, Korean) and half-width characters (alphabetical letters, numerical digits and symbols).
 
-[中文](./README.md)
+[中文说明](./README.md)
 
 ## Installation
 
 ### Via Git
 
-First, clone the repo via git to Sublime's package directory.
+Just clone the repo via git to Sublime's package directory.
 
 ### Via Package Control
 
