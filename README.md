@@ -1,20 +1,29 @@
 ## Auto-Spacing
 
-Sublime Text 3 插件，给中英文之间加上空格。
+Paranoid text spacing for good readability, to automatically insert whitespace between CJK (Chinese, Japanese, Korean) and half-width characters (alphabetical letters, numerical digits and symbols).
 
-为什么你们就是不能加个空格呢，为什么我就是能这样娴熟地加上空格呢。
+[中文说明](./README-ZH.md)
 
-[English Docs](./README-EN.md)
+## Installation
 
-## 安装
+### Via Git
 
-### 通过 git
+Just clone the repo via git to Sublime's package directory.
 
-git clone 这个仓库到 `Sublime Text 3` 的插件目录下 (Mac 的目录 `~/Library/Application Support/Sublime Text 3/Packages/`)。
+### Via Package Control
 
-### 通过 sublime 控制台
+To install via Package Control, do the following:
 
-`Ctrl + Shift + P` 选择  `Auto-Spacing`。
+Within Sublime Text, bring up the Command Palette and type install. 
+Among the commands you should see Package Control: Install Package. 
+If that command is not highlighted, use the keyboard or mouse to select it. 
+There will be a pause of a few seconds while Package Control fetches the list of available plugins.
+
+When the plugin list appears, type Auto Spacing. 
+Among the entries you should see Auto-Spacing. 
+If that entry is not highlighted, use the keyboard or mouse to select it.
+
+
 
 ## Commands
 **Command palette:**
@@ -29,27 +38,34 @@ git clone 这个仓库到 `Sublime Text 3` 的插件目录下 (Mac 的目录 `~/
 
 ## Settings
 
-默认设置:
+By default, Auto-Spacing will supply the following settings:
 
 ```javascript
 {
-  "format_on_save_extensions": false,
-  [
+  // Automatically format when a file is saved.
+  "format_on_save": false,
+
+  // Only attempt to format files with whitelisted extensions on save.
+  // Leave empty to disable the check
+  "format_on_save_extensions": [
     "md",
     "txt"
   ]
 }
 ```
 
-* 可自行更改默认设置 `Preferences -> Package Settings -> Auto-Spacing -> Settings - User`。
+* Modify any settings within the `Preferences -> Package Settings -> Auto-Spacing -> Settings - User` file.
 
 ## Contributing
 
-欢迎提交 [PR](https://github.com/xwartz/auto-spacing/pulls)。
+If you find any bugs feel free to report them [here](https://github.com/xwartz/Auto-Spacing/issues).
+
+Pull requests are also encouraged.
 
 ## Thanks
 
 [@vinta](https://github.com/vinta/pangu.py)
+
 
 ## License
 
