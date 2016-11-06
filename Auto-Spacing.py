@@ -88,10 +88,11 @@ class AutoSpacingCommand(sublime_plugin.TextCommand):
   def run_script_on_file(self, data):
     try:
       viewText = self.view.substr(sublime.Region(0, self.view.size()))
-      file = codecs.open(data,'w','utf-8')
-      file.write(PluginUtils.spacing(viewText))
-      file.close()
-      output = codecs.open(data,'r','utf-8').read()
+      # file = codecs.open(data,'w','utf-8')
+      # file.write(PluginUtils.spacing(viewText))
+      # file.close()
+      # output = codecs.open(data,'r','utf-8').read()
+      output = PluginUtils.spacing(viewText)
 
       return output
 
