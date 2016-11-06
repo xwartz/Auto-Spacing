@@ -1,6 +1,6 @@
 {
   "name": "auto-spacing",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sublime Text 3 Plugin to automatically insert whitespace between CJK (Chinese, Japanese, Korean) and half-width characters (alphabetical letters, numerical digits and symbols).",
   "main": "index.js",
   "scripts": {
